@@ -82,10 +82,16 @@ ul {
     margin-left: 5px; 
 }
 
+.contact-info {
+    display: flex;
+    height: 25px;
+}
+
 .contact-city {
+    display: block;
     margin-right: 44px;
     background-image: url(./images/city-icon.svg);
-    padding: 3px 0;
+    padding: 0;
     padding-left: 26px;
     background-repeat: no-repeat;
 }
@@ -101,8 +107,9 @@ ul {
 }
 
 .contact-phone {
+    display: block;
     background-image: url(./images/phone-icon.svg);
-    padding: 4px 0;
+    padding: 0;
     padding-left: 28px;
     background-repeat: no-repeat;
 }
