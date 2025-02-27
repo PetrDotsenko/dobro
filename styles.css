@@ -37,6 +37,11 @@ ul {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #121212;
+}
+
 .container {
     margin: 0 auto;
     margin-top: 90px;
@@ -85,6 +90,7 @@ ul {
 .contact-info {
     display: flex;
     height: 25px;
+    font-weight: 500;
 }
 
 .contact-city {
